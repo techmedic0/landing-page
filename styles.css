@@ -1,0 +1,152 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-color: #1F2937;
+  padding: 10px 100px 100px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header .logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+header .links {
+  display: flex;
+  column-gap: 20px;
+  color: #F9FAF8;
+}
+
+
+.brief {
+  display: flex;
+  column-gap: 100px;
+  margin: 50px 0 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  flex: 1;
+}
+
+h1 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.brief p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-image {
+  flex: 1;
+  background-color: hsl(215, 28%, 57%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:  #F9FAF8;
+}
+
+.hero button {
+  width: max-content;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 12px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+.random {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 50px 0 60px;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .ind {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ind p {
+  width: 30ch;
+}
+
+.container .ind .empty {
+  width: 100px;
+  height: 100px;
+  border: 3px double #3882F6;
+  border-radius: 12px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  background-color: #E5E7EB;
+  padding: 100px;
+}
+
+.quote .text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.author {
+  font-weight: bold;
+  margin-left: 80%;
+}
+
+.action {
+  background-color: #3882F6;
+  margin: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #E5E7EB;
+}
+
+.action .first {
+  font-weight: bold;
+}
+
+.action button {
+  width: max-content;
+  padding: 8px 20px;
+  border: 2px solid #E5E7EB;
+  border-radius: 12px;
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
